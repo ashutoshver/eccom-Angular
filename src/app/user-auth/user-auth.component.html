@@ -1,0 +1,67 @@
+<div class="user-auth">
+  <div *ngIf="!showLogin" class="user-signup">
+    <h1>Sign Up</h1>
+    <form
+      class="sign_form"
+      #userSignUp="ngForm"
+      (ngSubmit)="signUp(userSignUp.value)"
+      ngNativeValidate
+    >
+      <input
+        class="form_inp"
+        type="text"
+        placeholder="Enter User Name"
+        name="username"
+        ngModel
+        required
+      />
+      <input
+        class="form_inp"
+        type="email"
+        placeholder="Enter User email"
+        name="useremail"
+        ngModel
+        required
+      />
+      <input
+        class="form_inp"
+        type="password"
+        placeholder="Enter User password"
+        name="userpassword"
+        ngModel
+        required
+      />
+      <button class="form-button">Sign Up</button>
+      <p>Already Have Account? <a (click)="openLogin()">Click Here</a></p>
+    </form>
+  </div>
+
+  <div *ngIf="showLogin" class="user-login">
+    <h1>User Login</h1>
+    <form
+      class="sign_form"
+      #userLogin="ngForm"
+      (ngSubmit)="login(userLogin.value)"
+      ngNativeValidate
+    >
+      <input
+        class="form_inp"
+        type="email"
+        placeholder="Enter User email"
+        name="email"
+        ngModel
+        required
+      />
+      <input
+        class="form_inp"
+        type="password"
+        placeholder="Enter User password"
+        name="password"
+        ngModel
+        required
+      />
+      <button class="form-button">Login</button>
+       <p>Don't Have Account? <a (click)="openSignUp()">Click Here</a></p> 
+ </form>
+ </div>
+</div>

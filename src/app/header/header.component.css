@@ -1,0 +1,74 @@
+header {
+  background-color: rgba(128, 128, 128, 0.342);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.nav h1 a {
+  color: blue;
+  font-size: 23px;
+  font-family: "Lugrasimo", cursive;
+}
+
+.nav ul {
+  display: inline-flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.search_inp {
+  flex: 1;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5px;
+}
+.search_inp input {
+  flex: 1;
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  height: 39px;
+  border-right: none;
+  outline: none;
+}
+.search_inp button {
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  height: 43px;
+  font-size: 18px;
+}
+.logout_btn {
+  cursor: pointer;
+}
+
+.suggested-search {
+  position: absolute;
+  top: 58px;
+  z-index: 10;
+  display: list-item !important;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  width: 30%;
+  line-height: 3rem;
+}
+.suggested-search li {
+  /* padding:5px;  */
+  border: 1px solid #ddd;
+  /* width: 100%; */
+}
+.suggested-search li a{
+  cursor: pointer;
+  color: blueviolet;
+}
+

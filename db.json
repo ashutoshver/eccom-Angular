@@ -1,0 +1,143 @@
+{
+  "seller": [
+    {
+      "name": "Ashu Verma",
+      "email": "ashu@gmail.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "Ashutosh Verma",
+      "email": "ashutoshrock24@gmail.com",
+      "password": "ajhk@lkjf",
+      "id": 3
+    },
+    {
+      "name": "ashuro",
+      "email": "ashu@ashu",
+      "password": "ashurock",
+      "id": 35
+    },
+    {
+      "name": "ashurocks'ljkhvl'k;sfdvb",
+      "email": "ashu@ashu",
+      "password": "ashurock",
+      "id": 36
+    },
+    {
+      "name": "as",
+      "email": "as@as",
+      "password": "as",
+      "id": 37
+    }
+  ],
+  "products": [
+    {
+      "name": "iPhone 14",
+      "price": "70000",
+      "color": "Gray",
+      "category": "Phone",
+      "description": "Good Product",
+      "image": "https://m.media-amazon.com/images/I/61cwywLZR-L._SX466_.jpg",
+      "id": 1
+    },
+    {
+      "name": "huiwai",
+      "price": "40000",
+      "color": "white",
+      "category": "phone",
+      "description": "nice ",
+      "image": "https://fdn2.gsmarena.com/vv/pics/huawei/huawei-p30-1.jpg",
+      "id": 2
+    },
+    {
+      "name": "Poco",
+      "price": "30000",
+      "color": "Black",
+      "category": "phone",
+      "description": "nice",
+      "image": "https://i02.appmifile.com/237_operatorx_operatorx_xm/12/05/2023/c808cdf6c7c4e73d2e2ae6180520ddd8.jpg?width=398&height=320",
+      "id": 5
+    },
+    {
+      "name": "Moto Edge 40",
+      "price": "40000",
+      "color": "Black",
+      "category": "phone",
+      "description": "best",
+      "image": "https://motorolain.vtexassets.com/arquivos/ids/158169-400-400?v=1776279764&width=400&height=400&aspect=true",
+      "id": 6
+    },
+    {
+      "name": "Asus laptop",
+      "price": "70000",
+      "color": "gray",
+      "category": "Laptop",
+      "description": "16Gb ram",
+      "image": "https://m.media-amazon.com/images/I/91zVSkGGZbS._AC_UL400_.jpg",
+      "id": 7
+    },
+    {
+      "name": "acer",
+      "price": "44700",
+      "color": "mat black",
+      "category": "laptop",
+      "description": "2 in one housing",
+      "image": "https://images.acer.com/is/image/acer/Spin-5-SP513-55N-FpBl1-Sg-wallpaper-win11-01?$Line-Overview-L$",
+      "id": 8
+    },
+    {
+      "name": "HP Pavilion Laptop ",
+      "price": "52,999",
+      "color": "Gray",
+      "category": "Laptop",
+      "description": "AMD Ryzen™ 5-5625U ",
+      "image": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/6/8/689H4PA-1_T1680317489.png",
+      "id": 9
+    },
+    {
+      "name": "IN note 1",
+      "price": "20,000",
+      "color": "Black",
+      "category": "Phone",
+      "description": " high performance MediaTek Helio G85 Game Technology",
+      "image": "https://micromaxinfo.com/pub/media/catalog/product/cache/a2910b080eca5b97079773d00477689e/i/n/in-note1_1__1.png",
+      "id": 10
+    },
+    {
+      "name": "IN 1b",
+      "price": "40,000",
+      "color": "Black",
+      "category": "Phone",
+      "description": " high performance ",
+      "image": "https://micromaxinfo.com/pub/media/catalog/product/cache/a2910b080eca5b97079773d00477689e/i/n/in-1b.png",
+      "id": 11
+    }
+  ],
+  "users": [
+    {
+      "username": "Ashutosh Verma",
+      "useremail": "ashutoshrock24@gmail.com",
+      "userpassword": "Ashurock24@",
+      "id": 1
+    },
+    {
+      "username": "ashu",
+      "useremail": "ashuashu@ashuashu",
+      "userpassword": "ashuashuashuashu",
+      "id": 2
+    },
+    {
+      "username": "Ashutosh Verma",
+      "useremail": "ashutosheng1412@gmail.com",
+      "userpassword": "ashurock24@",
+      "id": 3
+    },
+    {
+      "username": "Veeru",
+      "useremail": "veeru@veeru",
+      "userpassword": "veeru",
+      "id": 4
+    }
+  ]
+}

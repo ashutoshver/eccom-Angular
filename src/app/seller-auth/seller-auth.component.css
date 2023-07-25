@@ -1,0 +1,24 @@
+.seller-auth{
+    width: 90%;
+    margin: auto;
+}
+.sign-up,.login{
+    text-align: center;
+}
+.error_p{
+    font-size: 14px;
+    color: red;
+}
+.sign-up h1,.login h1{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: 'Lugrasimo', cursive;
+}
+.auth_flip_link{
+    margin-top: 20px;
+    color: blueviolet;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}

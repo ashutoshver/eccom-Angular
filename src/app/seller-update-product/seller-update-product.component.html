@@ -1,0 +1,61 @@
+<div class="update-product">
+    <h1>Update New Product</h1>
+    <p class="p-message">{{productMessage}}</p>
+    <form #addProduct="ngForm" (ngSubmit)="submitUpdateProduct(addProduct.value)" class="sign_form" ngNativeValidate>
+      <input
+        class="form_inp"
+        ngModel="{{productData?.name}}"
+        name="name"
+        type="text"
+        placeholder="Enter Product Name"
+        required
+      />
+  
+      <input
+        class="form_inp"
+        ngModel="{{productData?.price}}"
+        name="price"
+        type="text"
+        placeholder="Enter Product Price"
+        required
+      />
+  
+      <input
+        class="form_inp"
+        ngModel="{{productData?.color}}"
+        name="color"
+        type="text"
+        placeholder="Enter Product Color"
+        required
+      />
+  
+      <input
+        class="form_inp"
+        ngModel="{{productData?.category}}"
+        name="category"
+        type="text"
+        placeholder="Enter Product Category"
+        required
+      />
+  
+      <textarea
+        class="form_inp"
+        ngModel="{{productData?.description}}"
+        name="description"
+        type="text"
+        placeholder="Enter Product Description"
+        required
+      ></textarea>
+  
+      <input
+      class="form_inp"
+      ngModel="{{productData?.image}}"
+      name="image"
+      type="text"
+      placeholder="Enter Product Image URL"
+      required
+    />
+    <button class="form-button">Update Product</button>
+    </form>
+  </div>
+  
