@@ -45,6 +45,8 @@ export class HeaderComponent {
     });
   }
 
+
+
   sellerlogout() {
     localStorage.removeItem('seller');
     this.route.navigate(['/']);
