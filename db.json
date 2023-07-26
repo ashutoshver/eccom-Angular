@@ -29,6 +29,12 @@
       "email": "as@as",
       "password": "as",
       "id": 37
+    },
+    {
+      "name": "Ashuver",
+      "email": "ashu12@mail",
+      "password": "ashuashu",
+      "id": 38
     }
   ],
   "products": [
@@ -138,6 +144,12 @@
       "useremail": "veeru@veeru",
       "userpassword": "veeru",
       "id": 4
+    },
+    {
+      "username": "praveen",
+      "useremail": "pr@pr",
+      "userpassword": "prprpr",
+      "id": 5
     }
   ]
 }

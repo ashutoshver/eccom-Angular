@@ -13,7 +13,7 @@ export class UserService {
 
   userSignUp(user: signUp) {
     this.http
-      .post('http://localhost:3000/users', user, { observe: 'response' })
+      .post('https://eccom-angular.onrender.com/users', user, { observe: 'response' })
       .subscribe((result) => {
         // console.warn(result)
         if (result) {
@@ -28,7 +28,7 @@ export class UserService {
   
     this.http
       .get<signUp[]>(
-        `http://localhost:3000/users?email=${data.email}&password=${data.password}`,
+        `https://eccom-angular.onrender.com/users?email=${data.email}&password=${data.password}`,
         { observe: 'response' }
       )
       .subscribe((result:any) => {

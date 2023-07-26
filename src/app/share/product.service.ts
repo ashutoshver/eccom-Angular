@@ -9,43 +9,43 @@ export class ProductService {
   constructor(private http: HttpClient) {}
   //For Adding product in list: Post
   addProduct(data: product) {
-    return this.http.post('http://localhost:3000/products', data);
+    return this.http.post('https://eccom-angular.onrender.com/products', data);
   }
 
   //For Adding product in list: GET
   productList() {
-    return this.http.get<product[]>('http://localhost:3000/products');
+    return this.http.get<product[]>('https://eccom-angular.onrender.com/products');
   }
   //For deleting any product List
   deleteProduct(id: number) {
-    return this.http.delete(`http://localhost:3000/products/${id}`);
+    return this.http.delete(`https://eccom-angular.onrender.com/products/${id}`);
   }
 
   //For update Product
   getProduct(id: string) {
-    return this.http.get<product>(`http://localhost:3000/products/${id}`);
+    return this.http.get<product>(`https://eccom-angular.onrender.com/products/${id}`);
   }
 
   //update product
   updateProduct(product: product) {
     return this.http.put<product>(
-      `http://localhost:3000/products/${product.id}`,
+      `https://eccom-angular.onrender.com/products/${product.id}`,
       product
     );
   }
   //home slider
   popularProducts() {
-    return this.http.get<product[]>('http://localhost:3000/products?_limit=6');
+    return this.http.get<product[]>('https://eccom-angular.onrender.com/products?_limit=6');
   }
 
   //Trendy Products
   trendyProducts() {
-    return this.http.get<product[]>('http://localhost:3000/products?_limit=8');
+    return this.http.get<product[]>('https://eccom-angular.onrender.com/products?_limit=8');
   }
 
    //Search Products
    searchProducts(query:string) {
-    return this.http.get<product[]>(`http://localhost:3000/products?q=${query}`);
+    return this.http.get<product[]>(`https://eccom-angular.onrender.com/products?q=${query}`);
   }
 
 }

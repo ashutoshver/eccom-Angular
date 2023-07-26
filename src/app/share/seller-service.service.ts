@@ -17,7 +17,7 @@ export class SellerServiceService {
       return false;
     }
     this.http
-      .post('http://localhost:3000/seller', data, { observe: 'response' })
+      .post('https://eccom-angular.onrender.com/seller', data, { observe: 'response' })
       .subscribe((result) => {
         if (result) {
           localStorage.setItem('seller', JSON.stringify(result.body));
@@ -38,7 +38,7 @@ export class SellerServiceService {
     // console.log(data);
     this.http
       .get(
-        `http://localhost:3000/seller?email=${data.email}&password=${data.password}`,
+        `https://eccom-angular.onrender.com/seller?email=${data.email}&password=${data.password}`,
         { observe: 'response' }
       )
       .subscribe((result: any) => {
